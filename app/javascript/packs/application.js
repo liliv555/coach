@@ -15,3 +15,17 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+
+var navBar = document.getElementById('navbar');
+window.onscroll = function () { 
+    "use strict";
+    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+        navBar.classList.add("nav-colored");
+        navBar.classList.remove("nav-transparent");
+    } 
+    else {
+        navBar.classList.add("nav-transparent");
+        navBar.classList.remove("nav-colored");
+    }
+};
