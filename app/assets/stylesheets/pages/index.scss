@@ -1,11 +1,6 @@
-.section-white {
+.section {
     background-color: white;
     color: grey;
-}
-
-.section-grey {
-    background-color: grey;
-    color: white;
 }
 
 .section-content {
@@ -15,10 +10,9 @@
     text-align: justify;
 }
 
-.title-grey{
-    border-bottom: grey solid 1px;
-}
-
-.title-white{
-    border-bottom: white solid 1px;
+.title{
+    border-bottom: #CEAC41 solid 1px;
+    color: #CEAC41;
+    font-family: 'Oswald';
+	letter-spacing: 0.46rem;
 }
