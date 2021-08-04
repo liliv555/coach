@@ -19,9 +19,8 @@ require("channels")
 
 // var navBar = document.getElementById("navbar");
 window.onscroll = function () {
-    console.log("SCROLL TEST");
     var navBar = document.getElementById("navbar");
-    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+    if (document.body.scrollTop >= 500 || document.documentElement.scrollTop >= 500 ) {
         navBar.classList.add("nav-colored");
         navBar.classList.remove("nav-transparent");
     } 
