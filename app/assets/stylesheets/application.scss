@@ -14,8 +14,16 @@
  *= require_self
  */
 
+ @import "pages/index";
  @import "pages/main";
+ @import "pages/about";
+ @import "pages/training";
+ @import "pages/coaching";
  @import "components/navbar";
+
+ html {
+    scroll-behavior: smooth;
+ }
 
  body {
     font-family: 'Montserrat', sans-serif;
