@@ -9,6 +9,7 @@ require("@rails/activestorage").start()
 require("channels")
 
 
+
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
@@ -16,10 +17,10 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-
-var navBar = document.getElementById('navbar');
-window.onscroll = function () { 
-    "use strict";
+// var navBar = document.getElementById("navbar");
+window.onscroll = function () {
+    console.log("SCROLL TEST");
+    var navBar = document.getElementById("navbar");
     if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
         navBar.classList.add("nav-colored");
         navBar.classList.remove("nav-transparent");

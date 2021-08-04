@@ -1,11 +1,19 @@
 #navbar {
     height: 100px;
-    color: white;
     width: 100vw;
-    background: linear-gradient(rgb(5, 5, 5), rgba(77, 72, 72, 0));
     position: fixed;
     top: 0;
     left: 0;
+}
+
+.nav-transparent {
+	background: linear-gradient(rgb(5, 5, 5), rgba(77, 72, 72, 0));
+	color: white;
+}
+
+.nav-colored {
+	background-color: black;
+	color: white;
 }
 
 ul {
