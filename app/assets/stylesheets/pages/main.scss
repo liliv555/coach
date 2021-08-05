@@ -5,11 +5,13 @@
 #home {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
     min-height: 100vh;
+    width: 100vw;
     background-size: cover;
     display: flex;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -15px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    // box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
 }
 
 .main-text {
