@@ -1,24 +1,37 @@
-<div id="navbar">
-    <div class="navbar-links">
-        <ul>
-            <li>
-                <a class="navlink" href="#home">HOME</a>
-            </li>
-            <li>
-                <a class="navlink" href="#about">ABOUT</a>
-            </li>
-            <li>
-                <a class="navlink" href="#training">TRAINING</a>
-            </li>
-            <li>
-                <a class="navlink" href="#coaching">COACHING</a>
-            </li>
-            <li>
-                <a class="navlink" href="#">CONTACT</a>
-            </li>
-            <li>
-                <a class="navlink" href="#">BLOG</a>
-            </li>
-        </ul>
+<div class="navbar-container">
+    <div id="navbar">
+        <div class="navbar-links">
+            <ul>
+                <li>
+                    <a class="navlink" href="#home"><%= t("navbar.home").upcase %></a>
+                </li>
+                <li>
+                    <a class="navlink" href="#about"><%= t("navbar.about").upcase %></a>
+                </li>
+                <li>
+                    <a class="navlink" href="#training"><%= t("navbar.training").upcase %></a>
+                </li>
+                <li>
+                    <a class="navlink" href="#coaching"><%= t("navbar.coaching").upcase %></a>
+                </li>
+                <li>
+                    <a class="navlink" href="#"><%= t("navbar.contact").upcase %></a>
+                </li>
+                <li>
+                    <a class="navlink" href="#"><%= t("navbar.blog").upcase %></a>
+                </li>
+            </ul>
+        </div>
+        <div class="language-switch" tabindex="0">
+            <div class="language-card">
+                <span class="language-icon">
+                    <i class="fas fa-globe"></i>
+                </span>
+                <ul>
+                    <li><a class="language-link" href="#">Magyar</a></li>
+                    <li><a class="language-link" href="#">English</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
