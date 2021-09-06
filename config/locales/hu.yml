@@ -1,57 +1,25 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
-en:
+hu:
   navbar:
-    hello: "Hello world"
-    home: "Home"
-    about: "About"
-    training: "Training"
-    coaching: "Coaching"
-    contact: "Contact"
+    home: "Főoldal"
+    about: "Rólam"
+    training: "Személyi edzés"
+    coaching: "Life coaching"
+    contact: "Kapcsolat"
     blog: "Blog"
   home:
-    name: "Csaba Szőke"
-    title: "Personal training & life coaching"
+    name: "Szőke Csaba"
+    title: "Személyi edzés & life coaching"
   about:
-    title: "About"
-    content: "English text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    title: "Rólam"
+    content: "Magyar szöveg Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Qui, ex consequatur harum ipsa alias nihil. Voluptatum ipsam vitae, 
               odio doloremque deserunt commodi, recusandae fugit praesentium nisi architecto debitis, 
               beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
               omnis. Voluptatibus nobis nemo, numquam error repellat natus in provident quo cum, soluta incidunt labore 
               tenetur architecto blanditiis, illo consectetur molestiae?"
   training:
-    title: "Personal training"
-    content: "English text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    title: "Személyi edzés"
+    content: "Magyar szöveg Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Qui, ex consequatur harum ipsa alias nihil. Voluptatum ipsam vitae, 
               odio doloremque deserunt commodi, recusandae fugit praesentium nisi architecto debitis, 
               beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
@@ -59,7 +27,7 @@ en:
               tenetur architecto blanditiis, illo consectetur molestiae?"
   coaching:
     title: "Life coaching"
-    content: "English text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    content: "Magyar szöveg Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Qui, ex consequatur harum ipsa alias nihil. Voluptatum ipsam vitae, 
               odio doloremque deserunt commodi, recusandae fugit praesentium nisi architecto debitis, 
               beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 

@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get 'index', to: 'main#index'
-  get 'contact', to: 'main#contact'
+  scope '(:locale)', locale: /hu|en/ do
+    root to: 'main#index'
+    get 'index', to: 'main#index'
+    get 'contact', to: 'main#contact'
+  end
 end
