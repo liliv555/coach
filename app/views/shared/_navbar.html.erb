@@ -22,14 +22,12 @@
                 </li>
             </ul>
         </div>
-        <div class="language-switch" tabindex="0">
-            <div class="language-card">
-                <span class="language-icon">
-                    <i class="fas fa-globe"></i>
-                </span>
-                <ul>
-                    <li><a class="language-link" href="#">Magyar</a></li>
-                    <li><a class="language-link" href="#">English</a></li>
+        <div class="language-switch">
+            <div class="dropdown">
+                <span class="language-icon"><i class="fas fa-globe"></i></span>
+                <ul class="dropdown-content">
+                    <li><%= link_to (image_tag("eng.png")), { :locale=>'en' } %></li>
+                    <li><%= link_to (image_tag("hun.png")), { :locale=>'hu' } %></li>
                 </ul>
             </div>
         </div>

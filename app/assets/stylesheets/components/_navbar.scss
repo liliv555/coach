@@ -17,43 +17,31 @@
 	top: 23px;
 }
 
-.language-card {
-	position:relative;
-	padding:42px 32px;
-	clip-path: circle(5% at 95% 11%);
-	transition: all ease-in-out .3s;
-	background-color:#ffffff;
-}
-
 .language-icon {
-	position: absolute;
-    right: 5px;
-	top: 0px;
-    font-size:1.4em;
-    color:#000000;
-    transition:ease-out .3s;
+	font-size: 1.5rem;
+    color: white;
 }
 
-.language-link {
-	color: black;
+.dropdown {
+	position: relative;
+	// display: inline-block;
 }
 
-.language-card:hover, :focus {
-	clip-path: circle(75%);
-    border-radius:20px;
-    box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
-                0px 3px 18px rgba(0,0,0,0.08);
-    background:#ffffff;
-    outline:none;
-    .language-icon {
-    	opacity: 0;
-	}
+.dropdown-content {
+    opacity: 0;
+    border-radius: 5px;
+    position: absolute;
+    right: -1px;
+    top: 2px;
+    background-color: #ffffff;
+    min-width: 160px;
+	transition: all 0.2	s;
+	min-height: 0px;
 }
 
-.language-card:focus {
-	box-shadow: 0px 3px 9px rgba(0,0,0,0.12), 
-				0px 3px 18px rgba(0,0,0,0.08), 
-				0px 0px 0px 4px rgba(0,0,0,0.2);
+.dropdown:hover .dropdown-content {
+	min-height: 100px;
+	opacity: 1;
 }
 
 .nav-transparent {
