@@ -1,8 +1,8 @@
 <div class="navbar-container">
     <div id="navbar">
         <div class="navbar-links">
-            <ul>
-                <li>
+            <ul class="nav-ul">
+                <li class="nav-li">
                     <a class="navlink" href="#home"><%= t("navbar.home").upcase %></a>
                 </li>
                 <li>
@@ -23,11 +23,11 @@
             </ul>
         </div>
         <div class="language-switch">
-            <div class="dropdown">
+            <div class="dropdown dropdown-10">
                 <span class="language-icon"><i class="fas fa-globe"></i></span>
-                <ul class="dropdown-content">
-                    <li><%= link_to (image_tag("eng.png")), { :locale=>'en' } %></li>
-                    <li><%= link_to (image_tag("hun.png")), { :locale=>'hu' } %></li>
+                <ul class="dropdown_menu dropdown_menu--animated dropdown_menu-10">
+                    <li class="dropdown_item-1"><%= link_to (image_tag("eng.png")), { :locale=>'en' } %></li>
+                    <li class="dropdown_item-2"><%= link_to (image_tag("hun.png")), { :locale=>'hu' } %></li>
                 </ul>
             </div>
         </div>
