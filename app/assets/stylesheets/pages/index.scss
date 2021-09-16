@@ -6,16 +6,34 @@
 //     margin-bottom: 50px;
 // }
 
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
 .section {
     color: rgb(197, 196, 196);
     margin-left: -15px;
 }
 
+.left {
+    border-left: solid 3px #CEAC41;
+}
+
+.rigth {
+    border-right: solid 3px #CEAC41;
+    color: red;
+}
+
 .section-content {
-    width: 50%;
-    margin: auto;
     padding: 10px;
     text-align: justify;
+    width: 60%;
+}
+
+.section-picture {
+    width: 30%;
+    height: 100%;
 }
 
 .title{

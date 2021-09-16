@@ -1,9 +1,13 @@
 #training {
     min-height: 50vh;
-    background-color: black;
 }
 
 #training .section-content {
     padding: 80px;
     margin-left: 50px;
+    margin-right: 10px;
+}
+
+#training .title {
+    text-align: end;
 }
