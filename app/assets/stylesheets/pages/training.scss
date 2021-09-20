@@ -1,13 +1,7 @@
-#training {
-    min-height: 50vh;
+.item.training {
+    background-color: #FFFFFF;
 }
 
-#training .section-content {
-    padding: 80px;
-    margin-left: 50px;
-    margin-right: 10px;
-}
-
-#training .title {
-    text-align: end;
+.title.training {
+    border-top: solid 2px #333333;
 }
