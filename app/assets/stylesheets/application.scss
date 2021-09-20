@@ -27,11 +27,13 @@
 
  body {
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: #333333;
+    overflow-x: hidden;
+    padding-bottom: 50px;
  }
 
  h2 {
-     font-size: 70px;
+     font-size: 65px;
      font-weight: normal;
      margin: 0px;
  }
