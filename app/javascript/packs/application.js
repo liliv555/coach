@@ -19,25 +19,64 @@ require("channels")
 
 // var navBar = document.getElementById("navbar");
 
+
+// if(document.readyState !== 'loading') {
+//     openNav();
+//     closeNav();
+// } else {
+//     document.addEventListener('DOMContentLoaded', function () {
+//         openNav();
+//         closeNav();
+//     });
+// };
+
+
+// function openNav() {
+//     const navLinks = document.querySelector(".nav-ul");
+//     const hamburgerIcon = document.querySelector("#open-nav");
+//     const closeIcon = document.querySelector("#close-nav");
+//     const nav = document.querySelector(".navbar-links");
+//     hamburgerIcon.addEventListener('click', function() {
+//         nav.classList.add("open");
+//         navLinks.style.display = "block";
+//         hamburgerIcon.style.display = "none";
+//         closeIcon.style.display = "block";
+//         console.log("HAMBURGER ICON WAS CLICKED!");
+//     });
+// };
+
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelector(".nav-ul");
     const hamburgerIcon = document.querySelector("#open-nav");
     const closeIcon = document.querySelector("#close-nav");
-    const nav = document.querySelector(".navbar-links")
+    const nav = document.querySelector(".navbar-links");
+    const links = document.querySelectorAll(".navlink");
 
     hamburgerIcon.addEventListener('click', function() {
+        openNav();
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.stopPropagation();
+                closeNav();
+            });
+        });
+    });
+
+    closeIcon.addEventListener("click", closeNav);
+
+    function openNav() {
         nav.classList.add("open");
         navLinks.style.display = "block";
         hamburgerIcon.style.display = "none";
         closeIcon.style.display = "block";
-    });
+    };
 
-    closeIcon.addEventListener('click', function() {
+    function closeNav() {
         nav.classList.remove("open");
         navLinks.style.display = "none";
         hamburgerIcon.style.display = "block";
         closeIcon.style.display = "none";
-    });
+    };
 });
 
 // window.onscroll = function () {
