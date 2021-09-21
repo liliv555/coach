@@ -1,24 +1,27 @@
 <div class="navbar-container">
     <div id="navbar">
+        <div id="open-nav" class="toggle-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div id="close-nav" class="toggle-icon">
+            <i class="fas fa-times"></i>
+        </div>
         <div class="navbar-links">
             <ul class="nav-ul">
                 <li class="nav-li">
                     <a class="navlink" href="#home"><%= t("navbar.home").upcase %></a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a class="navlink" href="#about"><%= t("navbar.about").upcase %></a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a class="navlink" href="#training"><%= t("navbar.training").upcase %></a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a class="navlink" href="#coaching"><%= t("navbar.coaching").upcase %></a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a class="navlink" href="#"><%= t("navbar.contact").upcase %></a>
-                </li>
-                <li>
-                    <a class="navlink" href="#"><%= t("navbar.blog").upcase %></a>
                 </li>
             </ul>
         </div>

@@ -18,14 +18,37 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 // var navBar = document.getElementById("navbar");
-window.onscroll = function () {
-    var navBar = document.getElementById("navbar");
-    if (document.body.scrollTop >= 500 || document.documentElement.scrollTop >= 500 ) {
-        navBar.classList.add("nav-colored");
-        navBar.classList.remove("nav-transparent");
-    } 
-    else {
-        navBar.classList.add("nav-transparent");
-        navBar.classList.remove("nav-colored");
-    }
-};
+
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelector(".nav-ul");
+    const hamburgerIcon = document.querySelector("#open-nav");
+    const closeIcon = document.querySelector("#close-nav");
+    const nav = document.querySelector(".navbar-links")
+
+    hamburgerIcon.addEventListener('click', function() {
+        nav.classList.add("open");
+        navLinks.style.display = "block";
+        hamburgerIcon.style.display = "none";
+        closeIcon.style.display = "block";
+    });
+
+    closeIcon.addEventListener('click', function() {
+        nav.classList.remove("open");
+        navLinks.style.display = "none";
+        hamburgerIcon.style.display = "block";
+        closeIcon.style.display = "none";
+    });
+});
+
+// window.onscroll = function () {
+//     var navBar = document.getElementById("navbar");
+//     if (document.body.scrollTop >= 500 || document.documentElement.scrollTop >= 500 ) {
+//         navBar.classList.add("nav-colored");
+//         navBar.classList.remove("nav-transparent");
+//     } 
+//     else {
+//         navBar.classList.add("nav-transparent");
+//         navBar.classList.remove("nav-colored");
+//     }
+// };
+
