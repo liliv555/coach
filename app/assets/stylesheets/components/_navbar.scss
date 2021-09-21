@@ -5,11 +5,15 @@
     top: 0;
     left: 0;
 	z-index: 555555555555;
+	background-color: black;
+	color: white;
 }
 
 .navbar-container {
 	position: relative;
 }
+
+///// Language switch style rules /////
 
 .language-switch {
 	position: absolute;
@@ -74,16 +78,8 @@
         transform: rotateY(0)
     }
 }
-	
-.nav-transparent {
-	background: linear-gradient(rgb(5, 5, 5), rgba(77, 72, 72, 0));
-	color: white;
-}
 
-.nav-colored {
-	background-color: black;
-	color: white;
-}
+///// Navbar links style rules /////
 
 .nav-ul {
 	list-style: none;
@@ -92,11 +88,7 @@
     display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-    width: 80%;
-}
-
-.nav-li {
-	margin: 0 2rem;
+    width: 67%;
 }
 
 .navlink {
@@ -107,10 +99,12 @@
     margin-top: 15px;
     display: block;
 	position: relative;
-	padding: 0.2em 0;
+	padding: 0.1em 0;
 	font-family: 'Oswald';
-	letter-spacing: 0.46rem;
+	letter-spacing: 0.40rem;
 }
+
+///// Navbar links hover style rules /////
 
 .navlink::after {
 	content: '';
@@ -137,4 +131,65 @@
 .navlink:hover::after,
 .navlink:focus::after{
 	transform: scale(1);
+}
+
+///// Responsive navbar style rules /////
+
+.toggle-icon {
+	margin: auto;
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	right: 65px;
+    top: 22px;
+}
+
+#open-nav {
+	display: none;
+}
+
+#close-nav {
+	display: none;
+	z-index: 1999999999999988888888;
+}
+
+@media screen and ( max-width: 900px ) { 
+	#open-nav {
+		display: block;
+	}
+
+	.nav-ul {
+		flex-direction: column;
+		width: 35%;
+		display: none;
+		text-align: center;
+	}
+
+	.nav-li {
+		padding-top: 2.7rem;
+	}
+}
+
+@media screen and ( min-width: 900px ) { 
+	#open-nav {
+		display: none;
+	}
+
+	.nav-ul {
+		display: flex;
+		width: 67%;
+	}
+
+	.nav-li {
+		padding-top: 0;
+	}
+}
+
+.open {
+	background: rgba(black, 0.97);
+	position: fixed;
+	height: 100vh;
+    width: 100%;
+	transition: 1.3s;
 }
