@@ -17,34 +17,6 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-// var navBar = document.getElementById("navbar");
-
-
-// if(document.readyState !== 'loading') {
-//     openNav();
-//     closeNav();
-// } else {
-//     document.addEventListener('DOMContentLoaded', function () {
-//         openNav();
-//         closeNav();
-//     });
-// };
-
-
-// function openNav() {
-//     const navLinks = document.querySelector(".nav-ul");
-//     const hamburgerIcon = document.querySelector("#open-nav");
-//     const closeIcon = document.querySelector("#close-nav");
-//     const nav = document.querySelector(".navbar-links");
-//     hamburgerIcon.addEventListener('click', function() {
-//         nav.classList.add("open");
-//         navLinks.style.display = "block";
-//         hamburgerIcon.style.display = "none";
-//         closeIcon.style.display = "block";
-//         console.log("HAMBURGER ICON WAS CLICKED!");
-//     });
-// };
-
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelector(".nav-ul");
     const hamburgerIcon = document.querySelector("#open-nav");

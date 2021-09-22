@@ -33,24 +33,25 @@
     position: relative;
 }
 
-.main-name:before, .main-name:after{
-	content: "";
-	display: block;
-	position: absolute;
-	width:7rem;
-	background-color: transparent;
-	height: 4px;
-	border-top: 1px solid #fff;
-	border-bottom:1px solid #fff;
-	top: 50%;
-	margin-bottom: -4px;
-}
-.main-name:before{
-	left: 38.5rem;
-}
-.main-name:after{
-	right: 38.5rem;
-}
+// .main-name:before, .main-name:after{
+// 	content: "";
+// 	display: block;
+// 	position: absolute;
+// 	width:7rem;
+// 	background-color: transparent;
+// 	height: 4px;
+// 	border-top: 1px solid #fff;
+// 	border-bottom:1px solid #fff;
+// 	top: 50%;
+// 	margin-bottom: -4px;
+// }
+
+// .main-name:before{
+// 	left: 38.5rem;
+// }
+// .main-name:after{
+// 	right: 38.5rem;
+// }
 
 .main-personal h3 {
     font-size: 3rem; /* 24 / 18 = 1.3333 */
@@ -58,4 +59,41 @@
     font-family: 'Oswald';
     letter-spacing: 8px;
     font-weight: lighter;
+}
+
+
+////// Responsiveness ///////
+
+@media screen and ( max-width: 1000px ) { 
+	.main-name h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-personal h3 {
+        font-size: 2rem;
+    }
+
+    #home {
+        background-position: center center;
+    }
+}
+
+@media screen and ( max-width: 700px ) { 
+	.main-name h2 {
+        font-size: 2rem;
+    }
+
+    .main-personal h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and ( max-width: 500px ) { 
+	.main-name h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-personal h3 {
+        font-size: 1rem;
+    }
 }
