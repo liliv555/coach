@@ -33,4 +33,12 @@ hu:
               beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
               omnis. Voluptatibus nobis nemo, numquam error repellat natus in provident quo cum, soluta incidunt labore 
               tenetur architecto blanditiis, illo consectetur molestiae?"
+  contact:
+    title: "Kapcsolat"
+    send: "Üzenet küldése"
+  simple_form:
+    placeholders:
+      name: "Név"
+      email: "E-mail cím"
+      message: "Üzenet"
     
