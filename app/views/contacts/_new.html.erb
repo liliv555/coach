@@ -1,21 +1,20 @@
-<h1>Contact Form</h1>
-  <%= form_for @contact do |f| %>
-    <div class="col-md-6">
-      <%= f.label :name %></br>
-      <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
+<h2 class="title contact"><%= t("contact.title").upcase %></h2>
+<div class="break"></div>
+<div class="form">
+    <%= form_for @contact do |f| %>
+        <%= f.text_field  :name, required: true, class: "contact-form-text-area",
+                placeholder: t("simple_form.placeholders.name").upcase %></br>
 
-      <%= f.label :email %></br>
-      <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
+        <%= f.text_field :email, required: true, class: "contact-form-text-area",
+                placeholder: t("simple_form.placeholders.email").upcase %></br>
+        </br>
+        <%= f.text_area :message, required: true, class: "contact-form-text-area message", rows:10, 
+                placeholder: t("simple_form.placeholders.message").upcase %></br>
 
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area", 
-            placeholder: "Send me a message"%></br>
-
-      <div style="display:none">
-        <%= f.label :nickname %>
-        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
-      </div>
-
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
-    </div>
-<% end %>
+        <div style="display:none">
+            <%= f.label :nickname %>
+            <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+        </div>
+        <%= f.submit t("contact.send").upcase, class: 'send-button' %>
+    <% end %>
+</div>

@@ -4,6 +4,66 @@
 
 .form-container {
     width: 100%;
-    margin: auto;
-    background-color: salmon;
+    background-color: #8f9790;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.title.contact {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: #817d7d 2px 1px;
+}
+
+.form {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.contact-form-text-area {
+    width: 85%;
+    background: transparent;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    outline: none;
+	border: 1px solid #ffffff;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.contact-form-text-area:focus {
+    box-shadow: 0 0 4px #ffffff;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+.send-button {
+    background: #8f9790;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #FFFFFF;
+    border: white 1px solid;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.send-button:hover {
+    color: #8f9790;
+    background-color: #FFFFFF;
+}
+
+.break {
+    height: 0.5rem;
+    background-color: #333333;
 }
