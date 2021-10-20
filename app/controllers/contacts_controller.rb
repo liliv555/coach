@@ -2,13 +2,14 @@ class ContactsController < ApplicationController
 
   def new
     @contact = Contact.new
+    @sent = false
   end
 
   def create
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      flash[:notice] = 'Message sent!'
+      @sent = true
       redirect_to root_path
     else
       flash[:error] = 'Could not send message'
