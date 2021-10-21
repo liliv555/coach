@@ -1,0 +1,93 @@
+.reviews-container {
+    justify-self: center;
+    background: transparent;
+    height: 200px;
+    width: 1044px;
+    margin: auto;
+    margin-top: -197px;
+    margin-bottom: 50px;
+    padding: 60px;
+    overflow: hidden;
+    position: relative;
+}
+  
+  .track {
+    display: flex;
+  }
+  
+  .card-container {
+    height: 150px;
+    width: 330px;
+    background: transparent;
+    padding: 1%;
+    border: #c7c2c2 2px solid;
+    position: relative;
+    flex-shrink: 0;
+    margin-right: 15px;
+    color: #c7c2c2;
+  }
+  
+  .card-img {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .card-name h2 {
+    font-size: 2rem;
+  }
+  
+  .card-content {
+    text-align: justify;
+  }
+
+  .card-review {
+      padding-top: 1.3rem;
+  }
+
+  .card-content p {
+    font-size: 0.8rem;
+  }
+
+  .fa-quote-left {
+    position: absolute;
+    top: -14px;
+    left: 15px;
+    font-size: 1.3rem;
+    color: #c7c2c2;
+    background-color: #333;
+    padding: 0px 6px;
+}
+
+  .fa-quote-right {
+    position: absolute;
+    top: 165px;
+    right: 15px;
+    font-size: 1.3rem;
+    color: #c7c2c2;
+    background-color: #333;
+    padding: 0px 6px;
+  }
+
+.reviews-container button {
+    color: #c7c2c2;
+    font-size: 2rem;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+}
+
+.prev {
+    top: 40%;
+    left: 6px;
+}
+
+.next {
+    top: 40%;
+    right: 6px;
+}
