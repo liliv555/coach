@@ -73,4 +73,6 @@ en:
       name: "Your name"
       email: "Your e-mail"
       message: "Your message"
+  reviews:
+    title: ""
     
