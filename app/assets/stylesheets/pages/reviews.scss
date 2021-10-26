@@ -1,26 +1,32 @@
 .reviews-container {
     justify-self: center;
     background: transparent;
-    height: 200px;
-    width: 1044px;
+    min-height: 200px;
+    width: 1110px;
     margin: auto;
-    margin-top: -197px;
     margin-bottom: 50px;
     padding: 60px;
-    overflow: hidden;
     position: relative;
 }
-  
-  .track {
-    display: flex;
-  }
+
+.track-container {
+  overflow: hidden;
+  min-height: 250px;
+  padding-top: 14px;
+}
+
+.track {
+    display: inline-flex;
+    transition: transform 0.5s;
+}
   
   .card-container {
     height: 150px;
     width: 330px;
     background: transparent;
-    padding: 1%;
+    padding: 0.7rem;
     border: #c7c2c2 2px solid;
+    border-radius: 4px;
     position: relative;
     flex-shrink: 0;
     margin-right: 15px;
@@ -85,9 +91,18 @@
 .prev {
     top: 40%;
     left: 6px;
+    display: none;
+}
+
+.prev.show {
+  display: block;
 }
 
 .next {
     top: 40%;
     right: 6px;
+}
+
+.next.hide {
+  display: none;
 }
