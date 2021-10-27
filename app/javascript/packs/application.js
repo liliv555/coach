@@ -4,7 +4,7 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
-require("turbolinks").start()
+// require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
@@ -17,8 +17,34 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+reviewsCarousel = function () {
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+    const track = document.querySelector('.track');
+    const trackWidth = document.querySelector('.track-container').offsetWidth;
+    let index = 0;
 
-document.addEventListener('DOMContentLoaded', function() {
+    next.addEventListener('click', () => {
+        index ++;
+        prev.classList.add('show');
+        track.style.transform = `translateX(-${index * trackWidth}px)`;
+
+        if (track.offsetWidth - (index * trackWidth) < trackWidth) {
+            next.classList.add('hide');
+        };
+    });
+
+    prev.addEventListener('click', () => {
+        index --;
+        next.classList.remove('hide');
+        track.style.transform = `translateX(-${index * trackWidth}px)`;
+        if (index === 0) {
+            prev.classList.remove('show');
+        }
+    });
+};
+
+hamburger = function () {
     const navLinks = document.querySelector(".nav-ul");
     const hamburgerIcon = document.querySelector("#open-nav");
     const closeIcon = document.querySelector("#close-nav");
@@ -29,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
         openNav();
         links.forEach(link => {
             link.addEventListener('click', (event) => {
-                event.stopPropagation();
                 closeNav();
             });
         });
@@ -50,7 +75,58 @@ document.addEventListener('DOMContentLoaded', function() {
         hamburgerIcon.style.display = "block";
         closeIcon.style.display = "none";
     };
+};
+
+document.addEventListener('DOMContentLoaded', function () {
+    reviewsCarousel();
+    hamburger();
 });
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     const navLinks = document.querySelector(".nav-ul");
+//     const hamburgerIcon = document.querySelector("#open-nav");
+//     const closeIcon = document.querySelector("#close-nav");
+//     const nav = document.querySelector(".navbar-links");
+//     const links = document.querySelectorAll(".navlink");
+
+//     hamburgerIcon.addEventListener('click', function() {
+//         openNav();
+//         links.forEach(link => {
+//             link.addEventListener('click', (event) => {
+//                 event.stopPropagation();
+//                 closeNav();
+//             });
+//         });
+//     });
+
+//     closeIcon.addEventListener("click", closeNav);
+
+//     function openNav() {
+//         nav.classList.add("open");
+//         navLinks.style.display = "block";
+//         hamburgerIcon.style.display = "none";
+//         closeIcon.style.display = "block";
+//     };
+
+//     function closeNav() {
+//         nav.classList.remove("open");
+//         navLinks.style.display = "none";
+//         hamburgerIcon.style.display = "block";
+//         closeIcon.style.display = "none";
+//     };
+
+//     const prev = document.querySelector('.prev');
+//     const next = document.querySelector('.next');
+//     const track = document.querySelector('.track');
+//     const reviewsWidth = document.querySelector('.reviews-container').offsetWidth;
+
+//     next.addEventListener('click', () => {
+//         track.style.transform = 'translateX(-${reviewsWidth}px)';
+//     })
+// });
+
+// Reviews carousel
 
 // window.onscroll = function () {
 //     var navBar = document.getElementById("navbar");
