@@ -109,13 +109,24 @@
 
 // RESPONSIVENESS
 
-@media screen and (max-width: 768px) { 
+// tablet
+@media screen and (max-width: 1275px) { 
   .reviews-container {
-    width: 70%;
+    width: 728px;
   }
 
   .card-container {
-    width: 223px;
+    margin: 0px 4px;
+  }
+}
+
+//phone
+@media screen and (max-width: 885px) { 
+  .reviews-container {
+    width: 358px;
+  }
+
+  .card-container {
     margin: 0px 1px;
   }
 }
