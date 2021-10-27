@@ -154,7 +154,13 @@
 	z-index: 1999999999999988888888;
 }
 
-@media screen and ( max-width: 1142px ) { 
+@media screen and (max-width: 1300px) { 
+	.navlink {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and ( max-width: 1110px ) { 
 	#open-nav {
 		display: block;
 	}
@@ -171,7 +177,7 @@
 	}
 }
 
-@media screen and ( min-width: 1142px ) { 
+@media screen and ( min-width: 1110px ) { 
 	#open-nav {
 		display: none;
 	}
