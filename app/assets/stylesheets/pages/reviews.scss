@@ -106,3 +106,16 @@
 .next.hide {
   display: none;
 }
+
+// RESPONSIVENESS
+
+@media screen and (max-width: 768px) { 
+  .reviews-container {
+    width: 70%;
+  }
+
+  .card-container {
+    width: 223px;
+    margin: 0px 1px;
+  }
+}
