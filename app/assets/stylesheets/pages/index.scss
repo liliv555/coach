@@ -31,7 +31,7 @@
 
 .item.section.left {
     right: 20px;
-    bottom: 20px;
+    bottom: -16px;
 }
 
 .item.section.right {
@@ -85,4 +85,15 @@
     .form-container {
         margin-left: 0;
     }
+}
+
+
+.hide {
+    opacity: 0;
+    padding-top: 130px;
+}
+
+.show {
+    transition: all 0.3s ease-out;
+    opacity: 1;
 }
