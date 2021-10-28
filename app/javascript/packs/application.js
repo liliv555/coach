@@ -44,6 +44,33 @@ reviewsCarousel = function () {
     });
 };
 
+galleryCarousel = function () {
+    const prev = document.querySelector('.prev-gallery');
+    const next = document.querySelector('.next-gallery');
+    const track = document.querySelector('.track-gallery');
+    const galleryWidth = 640;
+    let index = 0;
+
+    next.addEventListener('click', () => {
+        index ++;
+        prev.classList.add('show');
+        track.style.transform = `translateX(-${index * galleryWidth}px)`;
+
+        if (track.offsetWidth - (index * galleryWidth) < galleryWidth) {
+            next.classList.add('hide');
+        };
+    });
+
+    prev.addEventListener('click', () => {
+        index --;
+        next.classList.remove('hide');
+        track.style.transform = `translateX(-${index * galleryWidth}px)`;
+        if (index === 0) {
+            prev.classList.remove('show');
+        }
+    });
+}
+
 hamburger = function () {
     const navLinks = document.querySelector(".nav-ul");
     const hamburgerIcon = document.querySelector("#open-nav");
@@ -79,6 +106,7 @@ hamburger = function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     reviewsCarousel();
+    galleryCarousel();
     hamburger();
 });
 
