@@ -17,6 +17,24 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+divSlide = function () {
+  const sections = document.querySelectorAll(".slide")
+  
+  document.addEventListener('scroll', () => {
+    sections.forEach(section => {
+      const top = section.getBoundingClientRect().top
+      if (top <= 850) {
+        section.classList.add('show')
+        section.classList.remove('hide')
+
+      } else {
+        section.classList.add('hide')
+        section.classList.remove('show')
+      }
+    });
+  });
+}
+
 reviewsCarousel = function () {
     const prev = document.querySelector('.prev');
     const next = document.querySelector('.next');
@@ -108,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
     reviewsCarousel();
     galleryCarousel();
     hamburger();
+    divSlide();
 });
 
 

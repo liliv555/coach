@@ -10,42 +10,42 @@
 </div>
 <div class="content-container">
     <div class="section-container top">
-        <div class="item section left about">
+        <div class="item section left about slide hide">
             <div id="about">
                 <h2 class="title about"><%= t("about.title").upcase %></h2>
                 <p class="text about"><%= t("about.content") %></p>
             </div>
         </div>
-        <div class="item">
+        <div class="item slide hide">
             <img src="https://images.unsplash.com/photo-1616279969856-759f316a5ac1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29uYWwlMjB0cmFpbmluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="szemelyi edzes" class="section-picture left">
         </div>
-        <div class="item">
+        <div class="item slide hide">
             <img src="https://images.unsplash.com/photo-1586083702768-190ae093d34d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Szoke Csaba" class="section-picture right">
         </div>
-        <div class="item section left training">
+        <div class="item section left training slide hide">
             <div id="training">
                 <p class="text training"><%= t("training.content") %></p>
                 <h2 class="title training"><%= t("training.title") %></h2>
             </div>
         </div>
     </div>
-    <div class="reviews-container">
+    <div class="reviews-container slide hide">
         <%= render 'main/reviews' %>
     </div>
     <div class="section-container">
-        <div class="item section right coaching">
+        <div class="item section right coaching slide hide">
             <div id="coaching">
                 <h2 class="title coaching"><%= t("coaching.title") %></h2>
                 <p class="text coaching"><%= t("coaching.content") %></p>
             </div>
         </div>
-        <div class="item">
+        <div class="item slide hide">
             <%= render 'gallery' %>
         </div>
-        <div class="item">
+        <div class="item slide hide">
             <img src="https://images.unsplash.com/photo-1527856263669-12c3a0af2aa6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGlmZSUyMGNvYWNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="coaching" class="section-picture left">
         </div>
-        <div id="contact" class="form-container">
+        <div id="contact" class="form-container slide hide">
             <%= render 'contacts/new' %>
         </div>
     </div>
