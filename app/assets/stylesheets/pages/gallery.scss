@@ -1,0 +1,40 @@
+.gallery-container {
+    width: 500;
+    height: 637px;
+    position: relative;
+}
+
+.track-container-gallery {
+    overflow: hidden;
+}
+
+.track-gallery {
+    display: inline-flex;
+    transition: transform 0.5s;
+}
+
+.gallery-picture {
+    min-height: 500px;
+    min-width: 637px;
+    margin: 0;
+}
+
+.next-gallery {
+    position: absolute;
+    top: 50%;
+    right: 62px;
+}
+
+.next-gallery.hide {
+    display: none;
+}
+
+.prev-gallery {
+    position: absolute;
+    top: 50%;
+    left: -42px;
+}
+
+.prev-gallery.show {
+    display: block;
+}
