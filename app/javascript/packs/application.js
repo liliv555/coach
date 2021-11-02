@@ -66,7 +66,7 @@ galleryCarousel = function () {
     const prev = document.querySelector('.prev-gallery');
     const next = document.querySelector('.next-gallery');
     const track = document.querySelector('.track-gallery');
-    const galleryWidth = 640;
+    const galleryWidth = document.querySelector('.gallery-container').offsetWidth;
     let index = 0;
 
     next.addEventListener('click', () => {
