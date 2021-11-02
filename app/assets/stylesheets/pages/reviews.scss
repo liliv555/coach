@@ -1,12 +1,11 @@
 .reviews-container {
-    justify-self: center;
     background: transparent;
-    min-height: 200px;
     width: 1110px;
     margin: auto;
     margin-bottom: 50px;
     padding: 60px;
     position: relative;
+    display: flex;
 }
 
 .track-container {
@@ -123,15 +122,23 @@
 //phone
 @media screen and (max-width: 885px) { 
   .reviews-container {
-    width: 368px;
+    width: 300px;
     padding: 0px;
-    margin-left: -19px;
+    margin: auto;
     margin-top: 50px;
   }
 
   .card-container {
-    margin-right: 78px;
-    width: 239px;
-    margin-left: 32px;
+    margin-right: 25px;
+    width: 250px;
+    margin-left: 0px;
+  }
+
+  .prev {
+    left: -43px;
+  }
+
+  .next {
+    right: -29px;
   }
 }
