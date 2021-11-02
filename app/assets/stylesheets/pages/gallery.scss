@@ -1,6 +1,6 @@
 .gallery-container {
-    width: 500;
-    height: 637px;
+    width: 547px;
+    height: 500px;
     position: relative;
 }
 
@@ -14,9 +14,11 @@
 }
 
 .gallery-picture {
-    min-height: 500px;
-    min-width: 637px;
-    margin: 0;
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 2px;
+    margin-right: 94px;
 }
 
 .next-gallery {
@@ -38,3 +40,28 @@
 .prev-gallery.show {
     display: block;
 }
+
+@media screen and (max-width: 500px) { 
+    .gallery-container {
+      width: 335px;
+    }
+
+    .gallery {
+        margin-top: 25px;
+    }
+  
+    .gallery-picture {
+      width: 288px;
+      margin-right: 45px;
+      height: 400px;
+    //   margin-top: 25px;
+    }
+
+    .next-gallery {
+        right: 5px;
+    }
+
+    .prev-gallery {
+        left: -32px;
+    }
+  }
