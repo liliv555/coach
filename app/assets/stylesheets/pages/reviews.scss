@@ -123,12 +123,15 @@
 //phone
 @media screen and (max-width: 885px) { 
   .reviews-container {
-    width: 358px;
+    width: 368px;
     padding: 0px;
-    margin-left: -29px;
+    margin-left: -19px;
+    margin-top: 50px;
   }
 
   .card-container {
-    margin: 0px 1px;
+    margin-right: 78px;
+    width: 239px;
+    margin-left: 32px;
   }
 }
