@@ -11,12 +11,11 @@ hu:
     title: "Személyi edzés & life coaching"
   about:
     title: "Rólam"
-    content: "Magyar szöveg Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Qui, ex consequatur harum ipsa alias nihil. Voluptatum ipsam vitae, 
-              odio doloremque deserunt commodi, recusandae fugit praesentium nisi architecto debitis, 
-              beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
-              omnis. Voluptatibus nobis nemo, numquam error repellat natus in provident quo cum, soluta incidunt labore 
-              tenetur architecto blanditiis, illo consectetur molestiae?"
+    content_html: "<em>„Ne ítélkezz hogy ne ítéltess”</em></br></br>
+              Továbbra is a célom az embereknek segíteni, átlépni a hétköznapi
+              akadályokat. Kitűzni a célt. Elérni azt hogy könnyedén haladjanak a céljaik felé.
+              Leküzdeni a problémákat, ha jönnek az úton amerre haladnak. Segítséggel
+              felismerni mi is az úton felbukkant újabb akadály."
   training:
     title: "Személyi edzés"
     content: "Magyar szöveg Lorem ipsum dolor sit amet, consectetur adipisicing elit.
