@@ -2,18 +2,29 @@
     background-color: #D9C06D;
 }
 
+.item.coaching.left {
+    border: 6px solid #333;
+}
+
 .title.coaching {
     color: #D9C06D;
     background-color: #FFFFDD;
     padding: 4px;
     width: 70%;
-    font-size: 58px;
+    font-size: 52px;
     box-shadow: 0px 10px 30px 12px rgba(110, 108, 108, 0.1);
     margin-left: -50px;
 }
 
+.subtitle.coaching {
+    color: #FFFFDD;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+}
+
 .text.coaching {
     color: #FFFFFF;
+    font-size: 1.1em;
 }
 
 @media (max-width: 1290px) {

@@ -27,12 +27,38 @@ hu:
               tenetur architecto blanditiis, illo consectetur molestiae?"
   coaching:
     title: "Life coaching"
-    content: "Magyar szöveg Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Qui, ex consequatur harum ipsa alias nihil. Voluptatum ipsam vitae, 
-              odio doloremque deserunt commodi, recusandae fugit praesentium nisi architecto debitis, 
-              beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
-              omnis. Voluptatibus nobis nemo, numquam error repellat natus in provident quo cum, soluta incidunt labore 
-              tenetur architecto blanditiis, illo consectetur molestiae?"
+    subtitle_left: "Mi az a coaching?"
+    content_left_html: "A coach a sportpszichológiából az üzleti életbe a 80-as évek elején került be.
+              A coaching egy olyan folyamat, ahol egy személlyel, vagy kis csoportban ülést tartva elbeszélgetünk. Én, mint coach kérdésekkel segítem
+              a coachee-t a fejlődésben a <em>gátak, vagy a magának épített akadályok feloldásában</em>, illetve
+              elvezetni őt a saját önmegoldásáig. </br>
+              <em>A coach a jövőbeli célok elérésére ösztönöz a jelenből kiindulva.</em></br>
+              Ez egy közös munka, amit a coach és a coachee együtt, bizalmi alapon, szabályok lefektetése után folytat
+              egy ülésen. Nem megoldom a problémát, hanem a feldolgozásban segítek. </br>
+              
+              Alapvető feltétel, hogy a coach és ügyfele között <em>erőteljes bizalmi szövetség </em>jön létre.</br>
+              A cél elérése érdekében többféle stratégiát dolgoznak ki közösen. Minden találkozáskor
+              az ügyfél választja meg a beszélgetés fókuszát, míg a coach figyelmesen
+              hallgatja, megfigyeléseit visszajelzi, és legfőképpen kérdéseket tesz fel. </br>
+              Ez az interakció egyrészt segíti az ügyfelet abban, hogy világosabban lásson, másrészt akcióra serkenti. </br>
+              Ez a meghatározás egyaránt a <em>busisess és a life coachingra</em> is érvényes.
+              A business coaching többnyire a munkáltató megbízásából a teljesítmény
+              növelésére és a profizmus fejlesztése érdekében történik."
+    subtitle_right: "Miben különbözik a coaching a többi segítőeszköztől?"
+    content_right_html: "Többféle segítőeszköz van használatban, mint például: számmisztika, kártyavetés, jósnő, terápia, pszichológia,
+                    mentorálás, tanácsadás, szupervízió, fejlesztő tréning, ezotéria, családállítás. Mindegyiknek megvan a maga
+                    sajátossága, egyik sem jobb, mint a másik. </br>
+
+                    A coaching a jelennel foglalkozik és csak addig nyúl vissza a múltba ami a jelenre kihatással van. 
+                    Tehát a coaching a <em>jelenből a jövőben meghatározott célok elérésében segít</em>. Kérdezés technikával segítjük a
+                    klienst, hogy saját maga találjon rá, mik azok az akadályok amik a jelenben problémát okoznak. Ezek 
+                    lehetnek a múltból eredő és a jelen állapotot is befolyásoló, illetve akadályozó tényezők a célok elérésében. 
+                    A coaching folyamata teljesen egyedi, nincsenek általános dolgok, abban segít, amit a
+                    kliens szeretne elérni és ennek eléréséhez a coach legfőképp kérdésekkel, különböző̋ technikákkal
+                    segít új meglátásba helyezni problémákat, élethelyzeteket, célokat, miközben a pszichológia,
+                    kommunikáció és személyes fejlesztés egyes elemeit használja. </br>
+                    <em>A coaching nem terápia, nem tanácsadás, nem gyógyít, hanem fejleszt és hatékonyabbá tesz.</em>
+                    "
   contact:
     title: "Kapcsolat"
     send: "Üzenet küldése"
