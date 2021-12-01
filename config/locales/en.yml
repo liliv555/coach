@@ -59,12 +59,23 @@ en:
               tenetur architecto blanditiis, illo consectetur molestiae?"
   coaching:
     title: "Life coaching"
-    content: "English text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Qui, ex consequatur harum ipsa alias nihil. Voluptatum ipsam vitae, 
-              odio doloremque deserunt commodi, recusandae fugit praesentium nisi architecto debitis, 
-              beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
-              omnis. Voluptatibus nobis nemo, numquam error repellat natus in provident quo cum, soluta incidunt labore 
-              tenetur architecto blanditiis, illo consectetur molestiae?"
+    subtitle: "What is coaching?"
+    content_left_html: "Angol A coach a sportpszichológiából az üzleti életbe a 80-as évek elején került be.
+                  Saját szavakkal összefoglalva. A coaching az a folyamat, ahol egy személlyel,
+                  vagy kis csoportban ülést tartva elbeszélgetünk. Én mint coach kérdésekkel segítem
+                  a coachee-t a folyamatban a gátak, vagy magának épített akadályok feloldásában illetve
+                  elvezetni őt a saját önmegoldásáig. A jelennel foglalkozunk múlttal nem,  csak olyan mértékben,
+                  ami kihatással van a jelenre. A coach a jövőbeli célok elérésére ösztönöz a jelenből kiindulva.
+                  Közös munka amit a coach és a coachee közösen, bizalmi alapon, szabályok lefektetése után folytat
+                  egy ülésen. Nem megoldom a problémát hanem a feldolgozásban segítek."
+    content_right_html: "Angol Alapvető̋ feltétel, hogy a coach és ügyfele között erőteljes bizalmi szövetség jön létre.
+                    A cél elérése érdekében többféle stratégiát dolgoznak ki közösen. Minden találkozáskor
+                    az ügyfél választja meg a beszélgetés fókuszát, míg a coach figyelmesen
+                    hallgatja, megfigyeléseit visszajelzi, és legfőképpen kérdéseket tesz fel.
+                    Ez az interakció egyrészt segíti az ügyfelet abban, hogy világosabban lásson, másrészt akcióra serkenti.
+                    Ez a meghatározás egyaránt a busisess és a life coachingra is érvényes.
+                    A business coaching többnyire a munkáltató megbízásából a teljesítmény
+                    növelésére és a profizmus fejlesztése érdekében történik."
   contact:
     title: "Contact me"
     send: "Send message"

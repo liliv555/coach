@@ -36,14 +36,18 @@
         <div class="item section right coaching slide hide">
             <div id="coaching">
                 <h2 class="title coaching"><%= t("coaching.title") %></h2>
-                <p class="text coaching"><%= t("coaching.content") %></p>
+                <h4 class="subtitle coaching"><%= t("coaching.subtitle_left") %></h4>
+                <p class="text coaching"><%= t("coaching.content_left_html") %></p>
             </div>
         </div>
         <div class="item slide hide gallery">
             <%= render 'gallery' %>
         </div>
-        <div class="item slide hide">
-            <img src="https://images.unsplash.com/photo-1527856263669-12c3a0af2aa6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGlmZSUyMGNvYWNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="coaching" class="section-picture left">
+        <div class="item section left coaching slide hide">
+            <div id="coaching">
+                <h4 class="subtitle coaching"><%= t("coaching.subtitle_right") %></h4>
+                <p class="text coaching"><%= t("coaching.content_right_html") %></p>
+            </div>
         </div>
         <div id="contact" class="form-container slide hide">
             <%= render 'contacts/new' %>
