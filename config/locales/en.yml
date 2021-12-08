@@ -57,6 +57,33 @@ en:
               beatae consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
               omnis. Voluptatibus nobis nemo, numquam error repellat natus in provident quo cum, soluta incidunt labore 
               tenetur architecto blanditiis, illo consectetur molestiae?"
+  reviews:
+    title: "What They're saying..."
+    marti_html: "Angolul Drága Csabi!</br>Köszönöm, hogy megtanítottad, hogy mindent elérhetünk, amit
+        akarunk, és hogy a legmélyebb pontjaimon sem engedted el a kezem és megvártad,
+        amíg készen állok. Hogy te kitartottál, amikor én még nem és adtál időt és támogatást,
+        amikor én még nem tudtam. Köszönöm, hogy példát mutatsz bátorságból, félelem nélküli életből
+        és kitartásból és barátságból. Köszönöm, hogy kihozod belőlem a legjobbat és a legtöbbet!
+        Még nem vagyunk kész, de már azon az úton vagyunk, ami elvisz a célig.</br>Számtalan nehéz
+        percet éltünk meg, de legalább annyi jót és szépet. Nem ígérem, hogy nem lesznek nehéz percek,
+        de azt igen, hogy én egyetlen pillanatra sem adom már fel. Most egy kicsit büszke vagyok, hogy
+        idáig eljutottam. De arra a legbüszkébb, hogy veled tehettem meg ezt az utat és veled együtt fogom
+        elérni a célt. </br>Szeretettel: Márti"
+    helga_html: "A beszélgetéseinknek és edzéssel járó testi átalakulásnak hála rengeteg önbizalmat
+        szereztem, és sokkal inkább önmagam vagyok, mint régen. Ezt a környezetem is
+        folyamatosan megerősíti, rengeteg pozitív visszajelzést kapok mind a külsőmet,
+        mind a pozitív irányba megváltozott viselkedésemet illetően. És én is sokszor
+        rácsodálkozok magamra, hogy jé, ezt korábban nem mertem volna…csak néhány példa:
+        korábban nagyon nem szerettem emberek elé kiállni, szerepelni, mindig
+        elbizonytalanított, ha sok ember nézett, ez mára teljesen megváltozott, most már
+        egyáltalán nincs ezzel problémám, sőt néha akaratomon kívül is középpontba
+        kerülök, és jól érzem magamat benne. Sokkal jobban fel merem vállalni a
+        véleményemet is különböző csoportokban (mind a magánéletben, mind a munkában),
+        már nem akarok feltétlenül mindenkinek megfelelni, és nem számít, hogy ki mit
+        gondol. Ezt mind neked köszönhetem, nélküled nem tartanék ott, ahol most vagyok,
+        és ezt nem tudom elégszer megköszönni."
+    gizus_html: "Az egészséges önbizalmat, nőiességem megerősítését, melyekért örök hálám.
+        Természetesen az együtt töltött személyi edzésekért is immáron két éve."
   coaching:
     title: "Life coaching"
     subtitle: "What is coaching?"

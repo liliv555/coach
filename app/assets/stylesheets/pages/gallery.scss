@@ -41,6 +41,15 @@
     display: block;
 }
 
+.carousel-nav button {
+    color: #c7c2c2;
+    font-size: 2rem;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+}
+
 @media screen and (max-width: 500px) { 
     .gallery-container {
       width: 335px;
