@@ -1,5 +1,5 @@
 .reviews-container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -185,6 +185,14 @@
 // Responsiveness
 
 @media all and (max-width: 1520px) {
+  .reviews-container {
+    width: 90%;
+  }
+
+  .review-item {
+    padding-top: 0em;
+  }
+
   .before-after {
       height: 79%;
       flex-direction: column;
@@ -225,5 +233,15 @@
     height: 900px;
     flex-direction: column;
     padding: 0em 2em 3em 2em;
+  }
+
+  @media all and (max-width: 550px) {
+    .carousel{
+      height: 1100px;
+    }
+
+    .review {
+      width: 100%;
+    }
   }
 }
