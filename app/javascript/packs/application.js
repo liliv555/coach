@@ -43,6 +43,7 @@ reviewsCarousel = function () {
     const pagination = carousel.querySelector('.carousel-pagination');
     const bullets = [].slice.call(carousel.querySelectorAll('.carousel-bullet'));
     const totalItems = 3;
+    const reviewsWidth = document.querySelector('.carousel').offsetWidth;
     let currentIndex = 0;
     
     function next() {
@@ -55,7 +56,7 @@ reviewsCarousel = function () {
     
     function slideTo(index) {
         index = index < 0 ? totalItems - 1 : index >= totalItems ? 0 : index;
-        container.style.WebkitTransform = container.style.transform = 'translate(-' + (index * 1278.89) + 'px)';
+        container.style.WebkitTransform = container.style.transform = 'translate(-' + (index * reviewsWidth) + 'px)';
         bullets[currentIndex].classList.remove('active-bullet');
         bullets[index].classList.add('active-bullet');
         currentIndex = index;
