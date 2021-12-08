@@ -233,12 +233,13 @@
     height: 900px;
     flex-direction: column;
     padding: 0em 2em 3em 2em;
+    overflow: auto;
   }
 
   @media all and (max-width: 550px) {
-    .carousel{
-      height: 1100px;
-    }
+    // .carousel{
+    //   height: 1100px;
+    // }
 
     .review {
       width: 100%;
