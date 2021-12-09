@@ -28,16 +28,16 @@
     font-size: 5rem;
     margin-bottom: 0.33rem;
     font-family: 'Bree Serif', serif;
-    font-weight: 400;
+    font-weight: $normal;
     position: relative;
 }
 
 .main-personal h3 {
     font-size: 3rem;
     margin-bottom: 1.2375rem;
-    font-family: 'Oswald';
+    font-family: $statement;
     letter-spacing: 8px;
-    font-weight: lighter;
+    font-weight: $light;
 }
 
 

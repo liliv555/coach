@@ -48,15 +48,15 @@
 }
 
 .name {
-  font-family: 'Oswald';
+  font-family: $statement;
 	letter-spacing: 0.40rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: $semibold;
   font-size: 25px;
 }
 
 .review-content p {
-  font-size: 20px;
+  // font-size: 20px;
   font-size: 0.6em;
   line-height: 1.6;
   text-align: justify;
