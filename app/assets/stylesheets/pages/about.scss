@@ -1,12 +1,14 @@
+@import 'variables';
+
 .item.about {
-    background-color: #708D81;
+    background-color: $blue
 }
 
 .title.about {
-    color: #FFFFFF;
+    color: $white;
 }
 
 .text.about {
-    color: #FFFFFF;
+    color: $white;
 }
 

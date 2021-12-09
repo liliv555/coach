@@ -1,7 +1,9 @@
+@import 'variables';
+
 .footer {
-    background-color: #000;
+    background-color: $black;
     width: 100%;
-    color: #fff;
+    color: $white;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -22,12 +24,12 @@
 }
 
 .footer-link {
-    color: white;
+    color: $white;
     font-size: 2em;
     padding: 0.1em;
 }
 
 .footer-link:hover {
-    color: #D9C06D;
+    color: $light-blue;
     transition: 0.3s all;
 }

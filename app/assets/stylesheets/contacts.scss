@@ -1,10 +1,11 @@
 // Place all the styles related to the contacts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import 'variables';
 
 .form-container {
     width: 100%;
-    background-color: #8f9790;
+    background-color: $light-grey;
     margin-left: 16px;
     margin-top: 31px;
 }
@@ -13,7 +14,7 @@
     padding: 1rem;
     display: flex;
     justify-content: center;
-    color: #FFFFFF;
+    color: $white;
     text-shadow: #817d7d 2px 1px;
 }
 
@@ -29,42 +30,42 @@
     border-radius: 0.2rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
-    color: white;
+    color: $white;
     outline: none;
-	border: 1px solid #ffffff;
+	border: 1px solid $white;
 	-webkit-transition: all .3s;
 	transition: all .3s;
     margin-bottom: 1rem;
 }
 
 .contact-form-text-area:focus {
-    box-shadow: 0 0 4px #ffffff;
+    box-shadow: 0 0 4px $white;
 }
 
 ::placeholder {
-    color: #FFFFFF;
+    color: $white;
 }
 
 .send-button {
-    background: #8f9790;
+    background: $light-grey;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     border-radius: 0.2rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    color: #FFFFFF;
-    border: white 1px solid;
+    color: $white;
+    border: $white 1px solid;
     position: relative;
     transition: all 0.5s;
 }
 
 .send-button:hover {
-    color: #8f9790;
-    background-color: #FFFFFF;
+    color: $light-grey;
+    background-color: $white;
 }
 
 .break {
     height: 0.5rem;
-    background-color: #333333;
+    background-color: $dark-grey;
 }

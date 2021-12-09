@@ -1,7 +1,9 @@
+@import 'variables';
+
 .item.training {
-    background-color: #FFFFDD;
+    background-color: $white;
 }
 
 .title.training {
-    border-top: solid 2px #333333;
+    border-top: solid 2px $dark-grey
 }

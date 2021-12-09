@@ -1,10 +1,12 @@
+@import 'variables';
+
 .item.coaching {
-    background-color: #FFFFDD;
+    background-color: $light-yellow;
     margin-top: 80px;
 }
 
 .title.coaching {
-    color: #333333;
+    color: $dark-grey;
     padding: 4px;
     width: 70%;
     font-size: 52px;
@@ -17,7 +19,7 @@
 }
 
 .text.coaching {
-    color: #333333;
+    color: $dark-grey;
     font-size: 1.1em;
 }
 

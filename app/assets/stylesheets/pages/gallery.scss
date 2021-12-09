@@ -1,3 +1,5 @@
+@import 'variables';
+
 .gallery-container {
     width: 547px;
     height: 500px;
@@ -42,7 +44,7 @@
 }
 
 .carousel-nav button {
-    color: #c7c2c2;
+    color: $light-grey;
     font-size: 2rem;
     background: transparent;
     text-decoration: none;
