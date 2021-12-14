@@ -81,6 +81,12 @@
     .form-container {
         margin-left: 0;
     }
+
+    body .gallery-container {
+        margin: auto;
+        height: auto;
+        margin-top: 20px;
+    }
 }
 
 
@@ -92,4 +98,41 @@
 .show {
     transition: all 0.3s ease-out;
     opacity: 1;
+}
+
+@media (max-width: 650px) {
+    .content-container {
+        padding: 0;
+        font-size: 0.75rem;
+    }
+
+    body .reviews-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    body .carousel-prev {
+        left: 2px;
+    }
+
+    body .carousel-next {
+        right: 2px;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .item {
+        margin: 20px 0;
+    }
+
+    .item.section {
+        min-width: 100%;
+    }
+
+    body .gallery-container {
+        margin-left: 39px;
+        height: auto;
+    }
 }
